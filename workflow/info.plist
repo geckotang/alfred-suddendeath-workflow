@@ -24,7 +24,17 @@
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BADB242A-2695-43F2-A133-2E7ED33AC1AD</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
 		</array>
+		<key>BADB242A-2695-43F2-A133-2E7ED33AC1AD</key>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>@GeckoTang</string>
@@ -51,7 +61,7 @@
 				<string>$query = "{query}";
 require_once("sd.php");</string>
 				<key>subtext</key>
-				<string>突然の死の吹き出しを作ってクリップボードに入れます</string>
+				<string>Enderで吹き出しをクリップボードへ、Cmd+EnterでTwitterへ</string>
 				<key>title</key>
 				<string>&gt;突然のAlfred&lt;</string>
 				<key>type</key>
@@ -106,6 +116,23 @@ require_once("sd.php");</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<true/>
+				<key>url</key>
+				<string>https://twitter.com/intent/tweet?text={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BADB242A-2695-43F2-A133-2E7ED33AC1AD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -115,6 +142,11 @@ require_once("sd.php");</string>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
+		</dict>
+		<key>BADB242A-2695-43F2-A133-2E7ED33AC1AD</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
 		</dict>
 		<key>D5338CD1-B09E-487E-B0A7-72304A3B29C0</key>
 		<dict>
